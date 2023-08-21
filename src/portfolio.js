@@ -1,19 +1,19 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://rajshekhar26.github.io/cleanfolio',
-  title: 'JS.',
+  homepage: 'https://twitter.com/FemiOkedeyi',
+  title: '.KT',
 }
 
 const about = {
   // all the properties are optional - can be left empty or deleted
-  name: 'John Smith',
-  role: 'Front End Engineer',
+  name: 'Femi',
+  role: 'Android Developer',
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
-  resume: 'https://example.com',
+    'I am an Android developer and computer scientist with a strong track record in developing and delivering high-quality Android and Wear OS applications using my skills in Jetpack Compose and Android Architecture Patterns.',
+  resume: 'https://drive.google.com/file/d/1lefrp5VDzlylg29v4S5Bm9j2vEE9UL7h/view?usp=sharing',
   social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    linkedin: 'https://www.linkedin.com/in/oluwafemi-okedeyi/',
+    github: 'https://www.linkedin.com/in/oluwafemi-okedeyi/',
   },
 }
 
@@ -21,51 +21,52 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'Devfesttttt',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'A wear Os verion of the devfest 2022 mobile application that connects with the mobile app and displays event data',
+    stack: ['Jetpack Compose', 'Room Database', 'Wear Os', 'Dagger-Hilt'],
+    sourceCode: 'https://github.com/Vader-Femi/Devfesttttt',
+    // livePreview: 'https://github.com',
   },
   {
-    name: 'Project 2',
+    name: 'Class Konnect',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'An Android video call application using Jitsi Meet SDK, aimed to improve E-Learning in educational institutions ',
+    stack: ['Jetpack Compose', 'Jitsi Meet SDK', 'Firebase', 'Dagger-Hilt'],
+    sourceCode: 'https://github.com/Vader-Femi/ClassKonnect',
+    // livePreview: 'https://github.com',
   },
   {
-    name: 'Project 3',
+    name: '2FA',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
+      'An authentication android app that generates Time-Based One-Time-Passwords for online authentication',
+    stack: ['Base32 Encryption & Decryption', 'CI/CD'],
     sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    // livePreview: 'https://github.com',
   },
 ]
 
 const skills = [
   // skills can be added or removed
   // if there are no skills, Skills section won't show up
-  'HTML',
-  'CSS',
-  'JavaScript',
-  'TypeScript',
-  'React',
-  'Redux',
-  'SASS',
-  'Material UI',
-  'Git',
-  'CI/CD',
-  'Jest',
-  'Enzyme',
+  'Kotlin',
+  'Jetpack Compose',
+  'Wear OS Development',
+  'Android Development',
+  'MVVM and MVI Architecture',
+  'Dependency Injection',
+  'Kotlin Coroutines',
+  'Web Sockets',
+  'Retrofit',
+  'RESTful APIs',
+  'Material Design',
+  'Python',
+  'Ktor',
 ]
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+  email: 'oluwafemi.za@gmail.com',
 }
 
 export { header, about, projects, skills, contact }
